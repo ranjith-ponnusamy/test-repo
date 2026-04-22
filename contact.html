@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Ranjith P</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container nav">
+        <a href="index.html" class="logo">Ranjith P</a>
+        <ul class="nav-links static">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container section">
+      <h1>Let's Connect</h1>
+      <p class="hero-text">
+        If you are looking for a Business Analyst who can bridge domain context with data-driven insights,
+        I would love to hear from you.
+      </p>
+
+      <form class="contact-form card" id="contactForm">
+        <label>
+          Full Name
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+
+      <div class="contact-links mt-lg">
+        <a href="mailto:ranjithp@example.com">ranjithp@example.com</a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn Profile</a>
+        <a href="tel:+910000000000">+91 00000 00000</a>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Ranjith P</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
